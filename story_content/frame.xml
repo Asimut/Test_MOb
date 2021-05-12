@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="npnxabnsnfns00000000001" font="Open Sans" controllayout="npnxabnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxnabnsnfns00000000001" font="Open Sans" controllayout="npnxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -206,7 +206,7 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxabnsnfns00000000001">
+    <control_layout name="npnxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -214,7 +214,7 @@
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
+      <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -231,7 +231,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxabnsnfns00000000001">
+    <colorscheme name="npnxnabnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1159,7 +1159,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxabnsnfns00000000001">
+    <string_table name="npnxnabnsnfns00000000001">
       <string id="three_image_items">предметы</string>
       <string id="three_image_viewed">просмотренного</string>
       <string id="three_image_of">из</string>
@@ -1269,6 +1269,7 @@
             <slidelink slideid="_player.6buL8Bi4SRf.6UcVMsDIhWu" displaytext="Question1" expand="false" type="slide" />
             <slidelink slideid="_player.6buL8Bi4SRf.6e7Oi0Gk2zY" displaytext="Question2" expand="false" type="slide" />
             <slidelink slideid="_player.6buL8Bi4SRf.6YwJQvYD6zg" displaytext="Question2" expand="false" type="slide" />
+            <slidelink slideid="_player.6buL8Bi4SRf.638qDurnE8p" displaytext="The_End" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

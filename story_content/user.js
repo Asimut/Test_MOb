@@ -2,11 +2,20 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6MWQRJq1s1H":
+      case "6Yy02tPkw04":
         Script1();
         break;
-      case "6LBnrLNdzms":
+      case "6obatldx8wd":
         Script2();
+        break;
+      case "63X5YJ50wq6":
+        Script3();
+        break;
+      case "6fHEfOouxgM":
+        Script4();
+        break;
+      case "6oCmJnd33mC":
+        Script5();
         break;
   }
 }
@@ -53,5 +62,44 @@ function Script2()
  document.webkitCancelFullScreen(); 
  } 
  }
+}
+
+function Script3()
+{
+  function GoInFullscreen(preso) {
+	if(preso.requestFullscreen)
+		preso.requestFullscreen();
+	else if(preso.mozRequestFullScreen)
+		preso.mozRequestFullScreen();
+	else if(preso.webkitRequestFullscreen)
+		preso.webkitRequestFullscreen();
+	else if(preso.msRequestFullscreen)
+		preso.msRequestFullscreen();
+}
+
+function Script4()
+{
+  function GoInFullscreen(preso) {
+	if(preso.requestFullscreen)
+		preso.requestFullscreen();
+	else if(preso.mozRequestFullScreen)
+		preso.mozRequestFullScreen();
+	else if(preso.webkitRequestFullscreen)
+		preso.webkitRequestFullscreen();
+	else if(preso.msRequestFullscreen)
+		preso.msRequestFullscreen();
+}
+
+function Script5()
+{
+  function GoInFullscreen(preso) {
+	if(preso.requestFullscreen)
+		preso.requestFullscreen();
+	else if(preso.mozRequestFullScreen)
+		preso.mozRequestFullScreen();
+	else if(preso.webkitRequestFullscreen)
+		preso.webkitRequestFullscreen();
+	else if(preso.msRequestFullscreen)
+		preso.msRequestFullscreen();
 }
 

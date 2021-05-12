@@ -2,20 +2,26 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6Yy02tPkw04":
+      case "6Z4h3BKhdwT":
         Script1();
         break;
-      case "6obatldx8wd":
+      case "6fLjoBwl6TS":
         Script2();
         break;
-      case "63X5YJ50wq6":
+      case "5Y0S2aZFYHS":
         Script3();
         break;
-      case "6fHEfOouxgM":
+      case "66m4i8MvFnS":
         Script4();
         break;
-      case "6oCmJnd33mC":
+      case "6ZBkUSyfpdB":
         Script5();
+        break;
+      case "6JNxjSFbJH3":
+        Script6();
+        break;
+      case "5wHxyttgrax":
+        Script7();
         break;
   }
 }
@@ -44,6 +50,19 @@ function Script1()
 
 function Script2()
 {
+  function GoInFullscreen(preso) {
+	if(preso.requestFullscreen)
+		preso.requestFullscreen();
+	else if(preso.mozRequestFullScreen)
+		preso.mozRequestFullScreen();
+	else if(preso.webkitRequestFullscreen)
+		preso.webkitRequestFullscreen();
+	else if(preso.msRequestFullscreen)
+		preso.msRequestFullscreen();
+}
+
+function Script3()
+{
   if ((document.fullScreenElement && document.fullScreenElement !== null) || 
  (!document.mozFullScreen && !document.webkitIsFullScreen)) {
  if (document.documentElement.requestFullScreen) { 
@@ -64,19 +83,6 @@ function Script2()
  }
 }
 
-function Script3()
-{
-  function GoInFullscreen(preso) {
-	if(preso.requestFullscreen)
-		preso.requestFullscreen();
-	else if(preso.mozRequestFullScreen)
-		preso.mozRequestFullScreen();
-	else if(preso.webkitRequestFullscreen)
-		preso.webkitRequestFullscreen();
-	else if(preso.msRequestFullscreen)
-		preso.msRequestFullscreen();
-}
-
 function Script4()
 {
   function GoInFullscreen(preso) {
@@ -91,6 +97,32 @@ function Script4()
 }
 
 function Script5()
+{
+  function GoInFullscreen(preso) {
+	if(preso.requestFullscreen)
+		preso.requestFullscreen();
+	else if(preso.mozRequestFullScreen)
+		preso.mozRequestFullScreen();
+	else if(preso.webkitRequestFullscreen)
+		preso.webkitRequestFullscreen();
+	else if(preso.msRequestFullscreen)
+		preso.msRequestFullscreen();
+}
+
+function Script6()
+{
+  function GoInFullscreen(preso) {
+	if(preso.requestFullscreen)
+		preso.requestFullscreen();
+	else if(preso.mozRequestFullScreen)
+		preso.mozRequestFullScreen();
+	else if(preso.webkitRequestFullscreen)
+		preso.webkitRequestFullscreen();
+	else if(preso.msRequestFullscreen)
+		preso.msRequestFullscreen();
+}
+
+function Script7()
 {
   function GoInFullscreen(preso) {
 	if(preso.requestFullscreen)
